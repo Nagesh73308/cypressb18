@@ -5,7 +5,7 @@ const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 module.exports = defineConfig({
   reporter: 'cypress-mochawesome-reporter',
   e2e: {
-    "specPattern": "**/*.feature",
+    //"specPattern": "**/*.feature",
     "projectId": "caa7rx",
     "baseUrl":"https://opensource-demo.orangehrmlive.com",
   // "specPattern":"cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
