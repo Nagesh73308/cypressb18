@@ -1,6 +1,6 @@
 class LonginPage{
 
-    logo(){
+    logo() {
 
         return 'img[alt="company-branding"]'
     }

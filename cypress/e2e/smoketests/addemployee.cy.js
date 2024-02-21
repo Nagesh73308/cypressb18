@@ -32,7 +32,7 @@ describe("Verify Add employee functiobality", function(){
         login.loginwithcreds(logindata.username, logindata.password)
         cy.contains(dashboard.timeandworkcard()).should('be.visible')
         //or
-        cy.contains(dashboard.dashboardmenu()).should('be.visible')
+        cy.xpath(dashboard.dashboardmenu()).should('be.visible')
 
         for(let item in menuitems){
 
