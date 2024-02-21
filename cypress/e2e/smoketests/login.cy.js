@@ -49,7 +49,7 @@ describe('Verify Login functionality', () => {
         cy.get(login.submitbutton).click()
         cy.contains(dashboard.timeandworkcard()).should('be.visible')
         //or
-        cy.contains(dashboard.dashboardmenu()).should('be.visible')
+        cy.xpath(dashboard.dashboardmenu()).should('be.visible')
 
         //or
 

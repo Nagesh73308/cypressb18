@@ -7,7 +7,7 @@ class DashBoardPage{
 
      dashboardmenu(){
 
-        return 'Dashboard'
+        return '//*[text()="Dashboard"]'
      }
 
      pimmenu(){

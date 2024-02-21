@@ -41,7 +41,7 @@ Then('User should be navigated to dashboardpage', () => {
 
     cy.contains(dashboard.timeandworkcard()).should('be.visible')
     //or
-    cy.contains(dashboard.dashboardmenu()).should('be.visible')
+    cy.xpath(dashboard.dashboardmenu()).should('be.visible')
 
     //or
 
