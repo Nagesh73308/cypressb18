@@ -27,7 +27,6 @@ module.exports = defineConfig({
 
     },
     setupNodeEvents(on, config) {
-      return require('./cypress/plugins/index.js')(on, config)
       allureWriter(on, config);
       return config;
       require('cypress-mochawesome-reporter/plugin')(on);
