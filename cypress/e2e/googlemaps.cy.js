@@ -10,5 +10,6 @@ describe('google maps',()=>{
         cy.get('form[jsaction="submit:omnibox.searchboxFormSubmit"]').type('gudibanda')
         cy.get('button[id="searchbox-searchbutton"]').click()
         cy.get('').type('')
+        cy.get('').type('')
     })
 })
